@@ -1,0 +1,71 @@
+backend:
+  name: git-gateway
+  branch: main
+
+site_url: https://your-domain-here.com
+display_url: https://your-domain-here.com
+
+# Netlify Identity + Git Gateway handles login (set up in Netlify dashboard,
+# not here). No config needed for that part in this file.
+
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home"
+        file: "src/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "about"
+        label: "About Us"
+        file: "src/about/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "leadership"
+        label: "Leadership"
+        file: "src/leadership/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "thematic-areas"
+        label: "Thematic Areas"
+        file: "src/thematic-areas/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "programs"
+        label: "Programs"
+        file: "src/programs/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "contact"
+        label: "Contact"
+        file: "src/contact/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "newsletter"
+    label: "Newsletter & Opportunity"
+    folder: "src/newsletter-posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string", hint: "e.g. /newsletter/my-post-title/" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post.njk" }
