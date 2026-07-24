@@ -5,12 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | {{ site.name }}</title>
   <meta name="description" content="{{ description or site.description }}">
+  <link rel="icon" href="/images/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body class="{{ bodyClass }}">
   <header class="site-header">
     <div class="wrap header-inner">
-      <a href="/" class="logo">{{ site.name }}</a>
+      <a href="/" class="wordmark">
+        <img src="/images/logo.png" alt="ABMS logo" class="wordmark-logo">
+        <span class="wordmark-text">
+          <span class="wordmark-mark">ABMS</span>
+          <span class="wordmark-full">African Border &amp; Mobility Society</span>
+        </span>
+      </a>
       <nav>
         <a href="/">Home</a>
         <a href="/about/">About Us</a>
@@ -21,15 +31,18 @@
         <a href="/contact/">Contact</a>
       </nav>
     </div>
+    <div class="border-divider" aria-hidden="true"></div>
   </header>
 
   <main class="wrap page-content">
     {{ content | safe }}
   </main>
 
+  <div class="border-divider" aria-hidden="true"></div>
   <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; {{ site.year }} {{ site.name }}. All rights reserved.</p>
+    <div class="wrap footer-inner">
+      <span>&copy; {{ site.year }} {{ site.name }}. All rights reserved.</span>
+      <span class="footer-motto">Excellence in Border and Mobility Research</span>
     </div>
   </footer>
 </body>

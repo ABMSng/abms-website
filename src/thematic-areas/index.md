@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: Thematic Areas
+bodyClass: thematic-areas-page
 ---
 
 # Thematic Areas
