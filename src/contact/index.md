@@ -3,7 +3,6 @@ layout: base.njk
 title: Contact
 ---
 
-# Contact Us
 
 **Registered Office Address:**
 106 Villa Nova, Die Hoewes, Centurion, Gauteng Province, South Africa

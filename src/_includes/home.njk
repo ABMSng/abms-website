@@ -11,16 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="{{ bodyClass }}">
+<body class="home-page">
 {% include "partials/header.njk" %}
 
-  <section class="page-banner">
-    <div class="wrap">
-      <h1 class="page-banner-title">{{ title }}</h1>
-    </div>
-  </section>
-
-  <main class="wrap page-content">
+  <main class="home-main">
     {{ content | safe }}
   </main>
 

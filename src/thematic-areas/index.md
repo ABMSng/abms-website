@@ -4,7 +4,8 @@ title: Thematic Areas
 bodyClass: thematic-areas-page
 ---
 
-# Thematic Areas
+
+<img src="/images/thematic-banner.jpg" alt="Thematic Areas" class="thematic-banner">
 
 The Society focuses on, but is not limited to, the following thematic areas:
 

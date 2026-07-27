@@ -43,9 +43,9 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
-      - name: "programs"
-        label: "Programs"
-        file: "src/programs/index.md"
+      - name: "engagement-hub"
+        label: "Engagement Hub"
+        file: "src/engagement-hub/index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }

@@ -1,9 +1,13 @@
 ---
 layout: base.njk
-title: Programs
+title: Engagement Hub
+bodyClass: engagement-hub-page
 ---
 
-# Programs
+
+<details class="accordion-section" open>
+<summary>Programs</summary>
+<div class="accordion-body">
 
 ## 2026 Webinar Series
 
@@ -19,7 +23,12 @@ Examines how porous borders facilitate insurgency and organized crime, and wheth
 *Free Movement in East Africa: Lessons for Regional Integration and Continental Mobility*
 Evaluates the East African Community's experience with free movement of people, goods, labour, and services, and what it offers for the African Union's Agenda 2063.
 
-## Target Audience
+</div>
+</details>
+
+<details class="accordion-section">
+<summary>Target Audience</summary>
+<div class="accordion-body">
 
 Our programs bring together a diverse group of stakeholders, including:
 
@@ -30,6 +39,14 @@ Our programs bring together a diverse group of stakeholders, including:
 - Representatives from civil society organizations and international agencies
 - Media and advocacy groups
 
-## Partnerships & Collaboration
+</div>
+</details>
+
+<details class="accordion-section">
+<summary>Partnerships and Collaboration</summary>
+<div class="accordion-body">
 
 ABMS seeks strategic partnerships with institutions and organizations such as the UNDP, UNODC, the African Union (AU), regional economic communities (RECs), the African Border Centre (ABC) in Nairobi, universities, and national research institutes focused on border and migration issues across African states.
+
+</div>
+</details>
