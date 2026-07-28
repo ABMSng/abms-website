@@ -10,4 +10,6 @@ title: Contact
 **Mobile:** +27 83 345 5442 / +234 805 271 7727
 **Email:** abmsafrica@gmail.com
 
-Follow us on LinkedIn, Facebook, and Twitter/X — links coming soon.
+**LinkedIn:** [African Border and Mobility Society](https://www.linkedin.com/company/african-border-and-mobility-society/)
+
+Facebook and Twitter/X — coming soon.

@@ -50,6 +50,13 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      - name: "videos"
+        label: "Videos"
+        file: "src/videos/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       - name: "contact"
         label: "Contact"
         file: "src/contact/index.md"

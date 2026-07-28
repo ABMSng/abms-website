@@ -5,9 +5,16 @@ bodyClass: about-page
 ---
 
 
-The African Border and Mobility Society (ABMS) is a scholarly and professional association dedicated to advancing research, policy engagement, and capacity building in Border and Mobility Studies across Africa. Initiated and convened by Dr. Samuel Kehinde Okunade of the Department of Border and Migration Studies, Lagos State University, Nigeria, the Society is co-convened by Dr. Leon Mwamba Tshimpaka of the University of Pretoria, South Africa, and Dr. Lukong Stella Shulika of the University of Johannesburg, South Africa. ABMS brings together scholars, practitioners, and policymakers to foster interdisciplinary collaboration, promote knowledge exchange, and advance evidence-based research and policy on border governance, mobility, and regional integration across the African continent.
+<div class="split-layout">
+  <img src="/images/about-option-2.jpg" alt="ABMS">
+  <div class="split-text">
 
-The African Border and Mobility Society (ABMS) signifies a continental scholarly and professional platform dedicated to advancing excellence in Border and Migration Studies through research, teaching, policy engagement, and capacity development. The Society was established in recognition of the growing importance of borders and mobility in shaping Africa's political, economic, security, and socio-cultural landscape, and the urgent need to institutionalize Border and Migration Studies as a distinct academic discipline across African universities.
+<p>The African Border and Mobility Society (ABMS) is a scholarly and professional association dedicated to advancing research, policy engagement, and capacity building in Border and Migration Studies across Africa. ABMS brings together scholars, practitioners, and policymakers to foster interdisciplinary collaboration, promote knowledge exchange, and advance evidence-based research and policy on border governance, mobility, and regional integration across the African continent.</p>
+
+<p>The African Border and Mobility Society (ABMS) signifies a continental scholarly and professional platform dedicated to advancing excellence in Border and Migration Studies through research, teaching, policy engagement, and capacity development. The Society was established in recognition of the growing importance of borders and mobility in shaping Africa's political, economic, security, and socio-cultural landscape, and the urgent need to institutionalize Border and Migration Studies as a distinct academic discipline across African universities.</p>
+
+  </div>
+</div>
 
 Africa's borders, largely inherited from arbitrary colonial demarcations, continue to influence migration, cross-border trade, regional integration, security, identity, and development. Over the past few decades, significant progress has been made in understanding these dynamics through the pioneering work of African border scholars and research networks, particularly the African Borderlands Research Network (ABORNE). Through interdisciplinary scholarship, comparative research, and policy engagement, ABORNE has significantly expanded knowledge of Africa's borderlands and highlighted the lived experiences of border communities.
 
@@ -18,8 +25,6 @@ Despite these remarkable contributions, Border and Migration Studies remain insu
 It is within this context that the African Border and Mobility Society (ABMS) was established to consolidate existing scholarship while expanding the intellectual, institutional, and professional landscape of Border and Mobility Studies across the continent. The Society serves as a platform for interdisciplinary collaboration among scholars, policymakers, practitioners, and development partners, fostering research excellence, professional networking, knowledge exchange, and evidence-based policy engagement.
 
 Beyond promoting collaborative research and publications, ABMS is committed to advocating for the recognition of Border and Migration Studies as an autonomous academic discipline in African universities. By strengthening teaching, research, professional development, and policy dialogue, the Society seeks to nurture the next generation of African scholars while ensuring that Africa's border and mobility realities shape global debates and inform innovative, context-specific solutions for regional integration, peacebuilding, migration governance, and sustainable development.
-
-<img src="/images/about-option-2.jpg" alt="ABMS" class="about-photo">
 
 <details class="accordion-section" open>
 <summary>Vision</summary>

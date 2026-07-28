@@ -13,5 +13,7 @@ Subscribe for updates, or browse current opportunities and newsletter issues bel
     <p class="post-date">{{ post.data.date.toDateString() }}</p>
     <p>{{ post.data.summary }}</p>
   </article>
+{% else %}
+  <span class="accordion-placeholder">No updates yet — check back soon</span>
 {% endfor %}
 </div>

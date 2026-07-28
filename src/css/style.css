@@ -1,18 +1,17 @@
 /* ============================================================
    ABMS — Design tokens
-   Palette drawn from cartography: aged survey paper, map-ink
-   navy, a burnt-ochre route line, and a savanna sage accent.
+   Official brand palette as specified by the client.
    ============================================================ */
 :root {
-  --ink:      #21201B;   /* body text — warm near-black */
-  --indigo:   #22344B;   /* map-ink navy — header, headings */
-  --paper:    #EFEBDE;   /* aged cartographic paper — page bg */
-  --paper-2:  #E6E1D0;   /* slightly deeper paper — card fill */
-  --ochre:    #A8681F;   /* route/border line — accent, links */
-  --ochre-dk: #8C551A;
-  --sage:     #56715A;   /* savanna accent — tags, secondary */
-  --line:     #C7BC9E;   /* hairline / divider grey */
-  --white:    #FBF9F2;
+  --ink:      #1A2433;   /* body text — dark blue-black */
+  --indigo:   #0B2E6B;   /* Primary Blue */
+  --paper:    #F7F8FA;   /* clean light neutral — page bg */
+  --paper-2:  #EAF0F5;   /* light blue-tinted card fill */
+  --ochre:    #F4B000;   /* Primary Gold */
+  --ochre-dk: #E8A600;   /* Accent Gold */
+  --sage:     #0F6D9E;   /* Secondary Blue — tags, secondary accent */
+  --line:     #D7DCE2;   /* hairline / divider grey */
+  --white:    #FFFFFF;
 
   --font-display: "Fraunces", Georgia, serif;
   --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -70,6 +69,23 @@ a:hover { color: var(--ochre-dk); }
   opacity: 0.85;
 }
 
+/* ---- Top utility bar (official email) ---- */
+.top-bar {
+  background: var(--ochre);
+}
+
+.top-bar a {
+  display: inline-block;
+  color: var(--white);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  padding: 7px 24px;
+}
+
+.top-bar a:hover { text-decoration: underline; }
+
 /* ---- Header ---- */
 .site-header {
   background: var(--indigo);
@@ -82,28 +98,21 @@ a:hover { color: var(--ochre-dk); }
   align-items: center;
   flex-wrap: wrap;
   gap: 14px;
-  padding: 16px 24px;
+  padding: 20px 24px;
 }
 
 .wordmark {
   display: flex;
   align-items: center;
-  gap: 12px;
   text-decoration: none;
-  line-height: 1.1;
 }
 
 .wordmark-logo {
-  height: 68px;
+  height: 120px;
   width: auto;
   border-radius: 3px;
   background: var(--white);
-  padding: 4px;
-}
-
-.wordmark-text {
-  display: flex;
-  flex-direction: column;
+  padding: 6px;
 }
 
 .wordmark-mark {
@@ -359,7 +368,11 @@ ul li::before {
   padding: 110px 24px 92px;
 }
 
-.hero-inner { max-width: 800px; }
+.hero-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 .hero-eyebrow {
   font-family: var(--font-mono);
@@ -385,13 +398,14 @@ ul li::before {
   font-size: 1.2rem;
   color: #E4E8EC;
   max-width: 58ch;
-  margin: 0 0 38px;
+  margin: 0 auto 38px;
 }
 
 .hero-actions {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn {
@@ -600,6 +614,37 @@ details.accordion-section .accordion-body {
   padding: 14px 18px;
   display: inline-block;
 }
+
+/* ---- Split layout: image left, justified text right (client sketch) ---- */
+.split-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  margin: 1.6em 0 2em;
+}
+
+.split-layout img {
+  width: 38%;
+  max-width: 320px;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+
+.split-layout .split-text {
+  flex: 1;
+  text-align: justify;
+}
+
+.split-layout .split-text p:first-child { margin-top: 0; }
+
+@media (max-width: 700px) {
+  .split-layout { flex-direction: column; }
+  .split-layout img { width: 100%; max-width: none; }
+}
+
+/* Justify body copy on About Us, including accordion content */
+.about-page p { text-align: justify; }
 
 /* About Us supporting image */
 .about-photo {

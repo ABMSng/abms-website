@@ -7,7 +7,7 @@ title: Home
   <div class="wrap hero-inner">
     <p class="hero-eyebrow">Excellence in Border and Mobility Research</p>
     <h1 class="hero-title">African Border and Mobility Society</h1>
-    <p class="hero-lede">A pan-African scholarly society advancing research, policy engagement, and capacity building in Border and Migration Studies — founded by Dr. Samuel Kehinde Okunade, Lagos State University.</p>
+    <p class="hero-lede">A pan-African scholarly society advancing research, policy engagement, and capacity building in Border and Migration Studies.</p>
     <div class="hero-actions">
       <a href="/about/" class="btn btn-ochre">Our Mission</a>
       <a href="/newsletter/" class="btn btn-outline">Get Involved</a>

@@ -5,9 +5,11 @@ bodyClass: thematic-areas-page
 ---
 
 
-<img src="/images/thematic-banner.jpg" alt="Thematic Areas" class="thematic-banner">
+<div class="split-layout">
+  <img src="/images/thematic-banner.jpg" alt="Thematic Areas">
+  <div class="split-text">
 
-The Society focuses on, but is not limited to, the following thematic areas:
+<p>The Society focuses on, but is not limited to, the following thematic areas:</p>
 
 - The transformative nature of borders and borderlands in Africa
 - Border governance and security
@@ -17,3 +19,6 @@ The Society focuses on, but is not limited to, the following thematic areas:
 - Irregular migration and human trafficking
 - Economic implications of cross-border movements
 - Cultural and social dimensions of migration
+
+  </div>
+</div>
