@@ -32,7 +32,7 @@ bodyClass: leadership-page
   <img src="/images/director-okunade.jpg" alt="Samuel Kehinde Okunade, Ph.D." class="director-photo">
   <div>
 
-**Okunade**
+**Samuel Kehinde Okunade, Ph.D.**
 *Chairperson*
 Provides overall strategic leadership and serves as the chief executive of the society. Oversees the association's research agenda, collaborative research programmes, publications, institutional governance, and knowledge exchange initiatives while coordinating the work of the leadership team.
 
@@ -43,7 +43,7 @@ Provides overall strategic leadership and serves as the chief executive of the s
   <img src="/images/director-tshimpaka.jpg" alt="Leon Mwamba Tshimpaka, Ph.D." class="director-photo">
   <div>
 
-**Leon**
+**Leon Mwamba Tshimpaka, Ph.D.**
 *Director of Training, Conferences and Membership Development*
 Leads the planning and delivery of conferences, workshops, webinars, certification programmes, mentorship, and other professional development initiatives. Oversees member engagement, capacity-building, recruitment, and initiatives that strengthen the society's professional community.
 
@@ -54,7 +54,7 @@ Leads the planning and delivery of conferences, workshops, webinars, certificati
   <img src="/images/director-shulika.jpg" alt="Lukong Stella Shulika, Ph.D." class="director-photo">
   <div>
 
-**Stella**
+**Lukong Stella Shulika, Ph.D.**
 *Director of Partnerships, Policy and External Relations*
 Leads strategic partnerships and stakeholder engagement with governments, regional organizations (e.g., AU, ECOWAS, SADC), universities, development partners, civil society, and the private sector. Oversees policy advocacy, fundraising, communications, outreach, and external relations to advance the society's mission.
 

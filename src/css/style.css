@@ -1,17 +1,18 @@
 /* ============================================================
    ABMS — Design tokens
-   Official brand palette as specified by the client.
+   Palette drawn from cartography: aged survey paper, map-ink
+   navy, a burnt-ochre route line, and a savanna sage accent.
    ============================================================ */
 :root {
-  --ink:      #1A2433;   /* body text — dark blue-black */
-  --indigo:   #0B2E6B;   /* Primary Blue */
-  --paper:    #F7F8FA;   /* clean light neutral — page bg */
-  --paper-2:  #EAF0F5;   /* light blue-tinted card fill */
-  --ochre:    #F4B000;   /* Primary Gold */
-  --ochre-dk: #E8A600;   /* Accent Gold */
-  --sage:     #0F6D9E;   /* Secondary Blue — tags, secondary accent */
-  --line:     #D7DCE2;   /* hairline / divider grey */
-  --white:    #FFFFFF;
+  --ink:      #21201B;   /* body text — warm near-black */
+  --indigo:   #22344B;   /* map-ink navy — header, headings */
+  --paper:    #EFEBDE;   /* aged cartographic paper — page bg */
+  --paper-2:  #E6E1D0;   /* slightly deeper paper — card fill */
+  --ochre:    #A8681F;   /* route/border line — accent, links */
+  --ochre-dk: #8C551A;
+  --sage:     #56715A;   /* savanna accent — tags, secondary */
+  --line:     #C7BC9E;   /* hairline / divider grey */
+  --white:    #FBF9F2;
 
   --font-display: "Fraunces", Georgia, serif;
   --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -98,13 +99,14 @@ a:hover { color: var(--ochre-dk); }
   align-items: center;
   flex-wrap: wrap;
   gap: 14px;
-  padding: 20px 24px;
+  padding: 20px 24px 20px 10px;
 }
 
 .wordmark {
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-left: -6px;
 }
 
 .wordmark-logo {
@@ -149,6 +151,11 @@ nav a {
 }
 
 nav a:hover {
+  color: var(--white);
+  border-bottom-color: var(--ochre);
+}
+
+nav a.active {
   color: var(--white);
   border-bottom-color: var(--ochre);
 }
@@ -382,6 +389,8 @@ ul li::before {
   font-weight: 500;
   color: #F0B94D;
   margin: 0 0 20px;
+  width: 100%;
+  text-align: center;
 }
 
 .hero-title {
@@ -392,6 +401,7 @@ ul li::before {
   line-height: 1.06;
   letter-spacing: -0.01em;
   margin: 0 0 26px;
+  text-align: center;
 }
 
 .hero-lede {
@@ -645,6 +655,8 @@ details.accordion-section .accordion-body {
 
 /* Justify body copy on About Us, including accordion content */
 .about-page p { text-align: justify; }
+.leadership-page .accordion-body p { text-align: justify; }
+.engagement-hub-page .accordion-body p { text-align: justify; }
 
 /* About Us supporting image */
 .about-photo {
@@ -652,7 +664,8 @@ details.accordion-section .accordion-body {
   max-width: 560px;
   border-radius: 4px;
   border: 1px solid var(--line);
-  margin: 1em 0 1.6em;
+  margin: 1em auto 1.6em;
+  display: block;
 }
 
 /* Management section — centered cards, not left-aligned */

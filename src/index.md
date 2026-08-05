@@ -53,17 +53,17 @@ title: Home
       <a href="/leadership/" class="leader-teaser">
         <img src="/images/director-okunade.jpg" alt="Samuel Kehinde Okunade, Ph.D.">
         <span class="leader-name">Samuel Kehinde Okunade, Ph.D.</span>
-        <span class="leader-role">Convener &amp; Director of Research</span>
+        <span class="leader-role">Chairperson</span>
       </a>
       <a href="/leadership/" class="leader-teaser">
         <img src="/images/director-tshimpaka.jpg" alt="Leon Mwamba Tshimpaka, Ph.D.">
         <span class="leader-name">Leon Mwamba Tshimpaka, Ph.D.</span>
-        <span class="leader-role">Director of Training &amp; Conferences</span>
+        <span class="leader-role">Director of Training &amp; Membership Development</span>
       </a>
       <a href="/leadership/" class="leader-teaser">
         <img src="/images/director-shulika.jpg" alt="Lukong Stella Shulika, Ph.D.">
         <span class="leader-name">Lukong Stella Shulika, Ph.D.</span>
-        <span class="leader-role">Director of Partnerships &amp; Policy</span>
+        <span class="leader-role">Director of Partnerships &amp; External Relations</span>
       </a>
     </div>
   </div>

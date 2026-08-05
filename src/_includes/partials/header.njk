@@ -4,14 +4,14 @@
         <img src="/images/logo.png" alt="African Border and Mobility Society (ABMS)" class="wordmark-logo">
       </a>
       <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About Us</a>
-        <a href="/videos/">Videos</a>
-        <a href="/leadership/">Leadership</a>
-        <a href="/thematic-areas/">Thematic Areas</a>
-        <a href="/engagement-hub/">Engagement Hub</a>
-        <a href="/newsletter/">Newsletter &amp; Opportunity</a>
-        <a href="/contact/">Contact</a>
+        <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About Us</a>
+        <a href="/videos/" class="{% if page.url == '/videos/' %}active{% endif %}">Videos</a>
+        <a href="/leadership/" class="{% if page.url == '/leadership/' %}active{% endif %}">Leadership</a>
+        <a href="/thematic-areas/" class="{% if page.url == '/thematic-areas/' %}active{% endif %}">Thematic Areas</a>
+        <a href="/engagement-hub/" class="{% if page.url == '/engagement-hub/' %}active{% endif %}">Engagement Hub</a>
+        <a href="/newsletter/" class="{% if page.url == '/newsletter/' %}active{% endif %}">Newsletter &amp; Opportunity</a>
+        <a href="/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
       </nav>
     </div>
     <div class="border-divider" aria-hidden="true"></div>

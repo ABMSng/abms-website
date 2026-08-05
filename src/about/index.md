@@ -5,16 +5,11 @@ bodyClass: about-page
 ---
 
 
-<div class="split-layout">
-  <img src="/images/about-option-2.jpg" alt="ABMS">
-  <div class="split-text">
-
 <p>The African Border and Mobility Society (ABMS) is a scholarly and professional association dedicated to advancing research, policy engagement, and capacity building in Border and Migration Studies across Africa. ABMS brings together scholars, practitioners, and policymakers to foster interdisciplinary collaboration, promote knowledge exchange, and advance evidence-based research and policy on border governance, mobility, and regional integration across the African continent.</p>
 
 <p>The African Border and Mobility Society (ABMS) signifies a continental scholarly and professional platform dedicated to advancing excellence in Border and Migration Studies through research, teaching, policy engagement, and capacity development. The Society was established in recognition of the growing importance of borders and mobility in shaping Africa's political, economic, security, and socio-cultural landscape, and the urgent need to institutionalize Border and Migration Studies as a distinct academic discipline across African universities.</p>
 
-  </div>
-</div>
+<img src="/images/about-option-2.jpg" alt="ABMS" class="about-photo">
 
 Africa's borders, largely inherited from arbitrary colonial demarcations, continue to influence migration, cross-border trade, regional integration, security, identity, and development. Over the past few decades, significant progress has been made in understanding these dynamics through the pioneering work of African border scholars and research networks, particularly the African Borderlands Research Network (ABORNE). Through interdisciplinary scholarship, comparative research, and policy engagement, ABORNE has significantly expanded knowledge of Africa's borderlands and highlighted the lived experiences of border communities.
 
