@@ -4,6 +4,6 @@ title: Videos
 bodyClass: videos-page
 ---
 
-<span class="accordion-placeholder">Videos coming soon</span>
-
-<p>This page will feature video content from ABMS — webinar recordings, event highlights, and short features. Check back soon, or visit our <a href="/newsletter/">Newsletter &amp; Opportunity</a> page for upcoming events.</p>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/fHh83XPMt1c" title="ABMS Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
