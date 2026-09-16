@@ -42,6 +42,22 @@ To promote high-quality research, teaching, professional development, and policy
 </details>
 
 <details class="accordion-section">
+<summary>Target Audience</summary>
+<div class="accordion-body">
+
+Our programs bring together a diverse group of stakeholders, including:
+
+- Graduate students (Master's and PhD) researching border and migration issues
+- Early-career researchers and postdoctoral fellows
+- Established academics and researchers in border and migration studies
+- Policymakers with an interest in migration and border governance
+- Representatives from civil society organizations and international agencies
+- Media and advocacy groups
+
+</div>
+</details>
+
+<details class="accordion-section">
 <summary>Activities</summary>
 <div class="accordion-body">
 
@@ -62,6 +78,15 @@ To promote high-quality research, teaching, professional development, and policy
 - Generate policy-relevant research on border and migration issues
 - Influence policy discourse at national, regional, and continental levels
 - Contribute to the development of sustainable migration governance frameworks
+
+</div>
+</details>
+
+<details class="accordion-section">
+<summary>Partnerships and Collaboration</summary>
+<div class="accordion-body">
+
+ABMS seeks strategic partnerships with institutions and organizations such as the UNDP, UNODC, the African Union (AU), regional economic communities (RECs), the African Border Centre (ABC) in Nairobi, universities, and national research institutes focused on border and migration issues across African states.
 
 </div>
 </details>

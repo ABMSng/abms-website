@@ -26,7 +26,7 @@ bodyClass: leadership-page
 <summary>Management</summary>
 <div class="accordion-body">
 
-<div class="management-grid">
+<div class="management-grid tier-directors">
 
 <div class="director-card">
   <img src="/images/director-okunade.jpg" alt="Samuel Kehinde Okunade, Ph.D." class="director-photo">
@@ -57,6 +57,23 @@ Leads the planning and delivery of conferences, workshops, webinars, certificati
 **Lukong Stella Shulika, Ph.D.**
 *Director of Partnerships, Policy and External Relations*
 Leads strategic partnerships and stakeholder engagement with governments, regional organizations (e.g., AU, ECOWAS, SADC), universities, development partners, civil society, and the private sector. Oversees policy advocacy, fundraising, communications, outreach, and external relations to advance the society's mission.
+
+  </div>
+</div>
+
+</div>
+
+<p class="mgmt-tier-label">Heads</p>
+
+<div class="management-grid tier-heads">
+
+<div class="director-card">
+  <img src="/images/head-oladotun.jpg" alt="Oladotun Awosusi, Ph.D." class="director-photo">
+  <div>
+
+**Oladotun Awosusi, Ph.D.**
+*Head — Knowledge &amp; Research Resources*
+Leading ABMS's knowledge curation, resource-sharing, and dissemination; facilitating timely research and professional development opportunities while coordinating with all directors to ensure strategic synergy across Society activities.
 
   </div>
 </div>

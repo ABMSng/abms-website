@@ -662,6 +662,9 @@ details.accordion-section .accordion-body {
 .about-page p { text-align: justify; }
 .leadership-page .accordion-body p { text-align: justify; }
 .engagement-hub-page .accordion-body p { text-align: justify; }
+.knowledge-hub-page .accordion-body p { text-align: justify; }
+.knowledge-hub-page .voice-post h2,
+.knowledge-hub-page .voice-post h3 { text-align: left; }
 
 /* Responsive YouTube embed */
 .video-embed {
@@ -729,6 +732,38 @@ details.accordion-section .accordion-body {
 .management-grid .director-photo {
   width: 110px;
   height: 110px;
+}
+
+.mgmt-tier-label {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  color: var(--ochre-dk);
+  text-align: center;
+  margin: 2.2em 0 1em;
+}
+
+.management-grid.tier-heads {
+  gap: 18px;
+}
+
+.management-grid.tier-heads .director-card {
+  max-width: 200px;
+  padding: 14px;
+}
+
+.management-grid.tier-heads .director-photo {
+  width: 78px;
+  height: 78px;
+}
+
+.management-grid.tier-heads p {
+  font-size: 0.88rem;
+}
+
+.management-grid.tier-heads p strong:first-child {
+  font-size: 1rem;
 }
 
 /* Thematic Areas banner */
