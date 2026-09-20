@@ -8,9 +8,16 @@ bodyClass: knowledge-hub-page
 <summary>Voices</summary>
 <div class="accordion-body">
 
-<article class="voice-post">
+<details class="article-entry">
+<summary>
+  <span class="article-summary-text">
+    <span class="article-title">Correcting the Map, Not Yet the Border: What Africa's True Size Means for Its Future</span>
+    <span class="article-byline">Samuel K. Okunade, PhD. &middot; [DATE TO CONFIRM]</span>
+  </span>
+</summary>
+<div class="article-body">
 
-## Correcting the Map, Not Yet the Border: What Africa's True Size Means for Its Future
+<article class="voice-post">
 
 For 450 years, the world has viewed Africa through a distorted lens. The Mercator projection, drawn up in the sixteenth century to help European sailors navigate open water, quietly did something else along the way: it shrank Africa. On the map most of us grew up with, Greenland looks roughly the same size as the African continent. In reality, Africa is about fourteen times larger. That is not a rounding error. It is a visual inheritance of the same colonial gaze that carved up the continent at Berlin in 1884, and it has shaped how generations of students, policymakers and investors have unconsciously sized up Africa's weight in the world.
 
@@ -22,9 +29,10 @@ But mental maps matter for very material reasons. A continent that appears small
 
 For regional integration efforts such as the African Continental Free Trade Area, an accurate map is a small but symbolically weighty ally. It reinforces a claim African leaders have been making for decades: that the continent's fragmentation into fifty-four states, and its historic diminishment on the world stage, are both artefacts of decisions made elsewhere, and both are things Africans are entitled to correct. The borders on the ground remain the unfinished business of a longer conversation. But the map on the wall, at last, tells the truth about the space in which that conversation is happening.
 
-*Samuel K. Okunade, PhD.*
-
 </article>
+
+</div>
+</details>
 
 <!--
   Comments (Giscus, powered by GitHub Discussions on this repo — free, no backend needed).
@@ -50,17 +58,6 @@ For regional integration efforts such as the African Continental Free Trade Area
 </script>
 -->
 
-<p><em>Comments are being set up for this page — check back soon.</em></p>
-
-</div>
-</details>
-
-<details class="accordion-section">
-<summary>Books</summary>
-<div class="accordion-body">
-
-<span class="accordion-placeholder">Coming soon</span>
-
 </div>
 </details>
 
@@ -68,15 +65,25 @@ For regional integration efforts such as the African Continental Free Trade Area
 <summary>Published Works</summary>
 <div class="accordion-body">
 
-<article class="voice-post">
+<details class="article-entry">
+<summary>
+  <span class="article-summary-text">
+    <span class="article-title">Xenophobia is becoming Africa's new nationalism — South Africa is not alone</span>
+    <span class="article-byline">Mail &amp; Guardian &middot; 13 August 2026</span>
+  </span>
+</summary>
+<div class="article-body">
 
-### Xenophobia is becoming Africa's new nationalism — South Africa is not alone
+<article class="voice-post">
 
 This opinion piece, published by *Mail &amp; Guardian*, examines how xenophobia is increasingly becoming a form of nationalism across Africa. It argues that the challenge extends beyond South Africa, raising fundamental questions about Pan-Africanism, migration governance, regional integration and Africa's commitment to free movement and shared responsibility.
 
 [Read the full article on Mail &amp; Guardian &rarr;](https://mg.co.za/thought-leader/2026-08-13-xenophobia-is-becoming-africa-s-new-nationalism-south-africa-is-not-alone/)
 
 </article>
+
+</div>
+</details>
 
 </div>
 </details>

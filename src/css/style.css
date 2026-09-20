@@ -666,6 +666,64 @@ details.accordion-section .accordion-body {
 .knowledge-hub-page .voice-post h2,
 .knowledge-hub-page .voice-post h3 { text-align: left; }
 
+/* Nested article accordion — collapsed by default, shows byline + date always */
+details.article-entry {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 16px 20px;
+  margin: 0 0 16px;
+  background: var(--paper-2);
+}
+
+details.article-entry summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+details.article-entry summary::-webkit-details-marker { display: none; }
+
+details.article-entry summary::after {
+  content: "+";
+  font-family: var(--font-mono);
+  color: var(--ochre);
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+details.article-entry[open] summary::after { content: "\2212"; }
+
+.article-summary-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.article-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--indigo);
+  line-height: 1.35;
+}
+
+.article-byline {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--sage);
+}
+
+.article-entry .article-body {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--line);
+}
+
 /* Responsive YouTube embed */
 .video-embed {
   position: relative;
