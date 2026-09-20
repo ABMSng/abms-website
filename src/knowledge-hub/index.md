@@ -12,7 +12,7 @@ bodyClass: knowledge-hub-page
 <summary>
   <span class="article-summary-text">
     <span class="article-title">Correcting the Map, Not Yet the Border: What Africa's True Size Means for Its Future</span>
-    <span class="article-byline">Samuel K. Okunade, PhD. &middot; [DATE TO CONFIRM]</span>
+    <span class="article-byline">Samuel K. Okunade, PhD. &middot; 14 September 2026</span>
   </span>
 </summary>
 <div class="article-body">
